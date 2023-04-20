@@ -11,6 +11,10 @@ license-file = "LICENSE"
 keywords = ["cli", "port-scanner", "open-ports"]
 categories = ["command-line-utilities"]
 
+exclude = [
+    "assets/*",
+]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
