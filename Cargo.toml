@@ -2,6 +2,14 @@
 name = "turboscan"
 version = "0.1.0"
 edition = "2021"
+authors = ["Vithal Reddy <4v.reddy@gmail.com>"]
+description = "A fast and reliable Rust-based port scanner CLI."
+documentation = "https://docs.rs/turboscan"
+repository = "https://github.com/vithalreddy/turboscan"
+homepage = "https://github.com/vithalreddy/turboscan"
+license-file = "LICENSE"
+keywords = ["cli", "port-scanner", "open-ports"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
