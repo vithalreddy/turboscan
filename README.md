@@ -1,6 +1,10 @@
 # Turboscan
 
-Turboscan is a blazingly fast and reliable Rust-based port scanner CLI for network administrators, security professionals and Developers. With lightning-fast scanning capabilities and advanced error handling, Turboscan makes it easy to identify open ports and potential security vulnerabilities on any network.
+Turboscan is a blazingly fast and reliable Rust-based port scanner CLI for network administrators, security professionals and Developers.
+
+## Demo
+
+<img src="https://github.com/vithalreddy/turboscan/blob/master/assets/demo.gif?raw=true">
 
 ## Usage
 
@@ -17,10 +21,6 @@ Options:
   -h, --help                       Print help
   -V, --version                    Print version
 ```
-
-## Demo
-
-<img src="https://github.com/vithalreddy/turboscan/blob/master/assets/demo.gif?raw=true">
 
 ## Features
 
