@@ -37,7 +37,7 @@ This will scan all ports on the host `example.com` and display the results in re
 $ turboscan example.com --start-port 1 --end-port 1024
 ```
 
-This will scan only ports 1 through 1024 on the host `example.com`. You can also scan multiple hosts by specifying them as separate arguments, like so:
+This will scan only ports 1 through 1024 on the host `example.com`. You can also scan multiple hosts by specifying them as separate arguments, like so (`planned`):
 
 ```
 $ turboscan example.com 192.168.1.1 --start-port 1 --end-port 1024
