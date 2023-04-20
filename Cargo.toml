@@ -1,6 +1,6 @@
 [package]
 name = "turboscan"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Vithal Reddy <4v.reddy@gmail.com>"]
 description = "A fast and reliable Rust-based port scanner CLI."
@@ -13,6 +13,7 @@ categories = ["command-line-utilities"]
 
 exclude = [
     "assets/*",
+    ".github/*"
 ]
 
 
