@@ -14,17 +14,17 @@ pub fn valid_host(s: &str) -> Result<String, String> {
 
     let ip = IpAddr::from_str(&url_str);
 
-    if ip.is_ok() {
-        return Ok(ip.unwrap().to_string());
+    if let Ok(ip) = ip {
+        return Ok(ip.to_string());
     }
 
     let url = Url::parse(&url_str);
 
     if url.is_err() {
-        return Err(format!("Invalid target ip or url",));
+        return Err("Invalid target ip or url".to_string());
     }
 
     let url = url.unwrap().host_str().unwrap().to_owned();
 
-    return Ok(url);
+    Ok(url)
 }
